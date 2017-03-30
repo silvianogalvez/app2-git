@@ -1,0 +1,272 @@
+<!doctype html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <title>Segunda  Aplicacion</title>
+
+    <!--grupo CSS-->
+    <link rel="stylesheet" href="css/tema-app1.min.css"/>
+    <link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+    <link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+    <!--grupo JavaScript-->
+    <script src="js/jquery-1.11.2.min.js"></script>
+    <script src="js/jquery.mobile-1.4.5.min.js"></script>
+	<script src="js/acciones.js"></script>
+	<script src="phonegap.js"></script>
+	<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+    </script>
+  </head>
+
+ <body onLoad="MM_preloadImages('imagenes/tel4.jpg','imagenes/tel2.jpg','imagenes/histo2.jpg','imagenes/histo4.jpg')">
+
+	<div data-role="page" id="Principal" data-theme="b">
+	  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" 	data-back-btn-theme="b">
+		<h1>Telefonia celular en Mexico</h1>
+	  </div>
+      <div data-role="main" class="ui-content">
+        <div data-role="collapsible" data-content-theme="false">
+        	<h1>Telefono celular</h1>
+  		    <div>
+				<p>telefónia celular </p>
+				<br>
+		    </div>
+			<div>
+				<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image5','','imagenes/telefonia1.jpg',0)"><img src="imagenes/telefonia2.jpg" width="260" height="195" id="Image5"></a>
+            </div>
+		</div>
+      </div>
+	  <div>
+		<ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-b">
+		<li class="ui-first-child ui-last-child">
+			<a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+				<h2>DEFINICION</h2>
+				<p>Definicin del telefono</p>
+			</a>
+		</li>
+		<li class="ui-first-child ui-last-child">
+			<a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+				<h2>HISTORIA</h2>
+				<p>Historia del telefono</p>
+			</a>
+		</li>
+		<li class="ui-first-child ui-last-child">
+			<a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+				<h2>CLASIFICACION</h2>
+				<p>Clasificacion de los telefonos</p>
+			</a>
+		</li>
+		<li class="ui-first-child ui-last-child">
+			<a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+				<h2>COMPANIAS</h2>
+				<p>Companias que ofrecen servicios celular </p>
+			</a>
+		</li>
+		<li class="ui-first-child ui-last-child">
+			<a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+				<h2>TELEFONOS DEL FUTURO</h2>
+				<p>Telefonos del futuro</p>
+			</a>
+		</li>
+		</ul>
+	</div>
+	<div data-role="footer" align="center" data-theme="b" data-position="fixed">
+		<div>
+			<img src="res/android/mdpi.png">
+		</div>
+		<div>
+			<h4>Aplicacion Dos</h4>
+			<h4>Silvano Galvez Segundo</h4>
+		</div>
+	 </div>
+	</div>
+    <div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="b">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+          <h1>Definovion</h1>
+      </div>
+      <div data-role="content" align="center">
+      <div>
+      <h2> Arte de construir, instalar y manejar los teléfonos.
+Servicio público de comunicaciones telefónicas.
+tecnol. Sistema que permite la comunicación a distancia entre dos o más personas. Las ondas sonoras producidas por uno de los comunicantes se convierten en energía eléctrica que es transmitida hasta el receptor del usuario que escucha, donde es transformada otra vez en energía sonora. La tecnología digital, por su parte, utiliza la tecnología digital y permite usar servicios adicionales como Internet. La telefonía móvil permite establecer comunicación sin estar conectado a una línea fija.</h2>
+      </div>
+      </div>
+     <div data-role="collapsible" data-content-theme="false">
+     	<h1>telefonia1</h1>  
+        <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image6','','imagenes/tel4.jpg',1)"><img src="imagenes/tel3.jpg" width="212" height="238" id="Image6"></a>
+        </div>
+        <div data-role="collapsible" data-content-theme="false">
+     	<h1>telefonia2</h1> 
+        <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image7','','imagenes/tel2.jpg',1)"><img src="imagenes/tel1.jpg" width="304" height="144" id="Image7"></a>
+        </div>
+<div data-role="footer" data-theme="b" data-position="fixed">
+    <h4>Aplicacion Doss, SGS</h4>
+          </div>
+         </div>
+        </div> 
+ 
+  <div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="b">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+         <h1>Historia</h1>
+       </div>
+       <div data-role="content" align="center">
+         <div>
+           <h2>El 3 de abril de 1973, Martín Cooper directivo de Motorola realizó la primera llamada desde un teléfono móvil del proyecto DynaTAC 8000X desde una calle de Nueva York. precisamente a su mayor rival en el sector de telefonía: Joel Engel, de los Bell Labs de AT&T.</h2>
+         </div>
+        </div>
+        <div data-role="collapsible" data-content-theme="false">
+     	<h1>Historia</h1>
+     	<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image8','','imagenes/histo2.jpg',1)"><img src="imagenes/histo1.jpg" width="259" height="194" id="Image8"></a>
+        </div>
+         <div data-role="collapsible" data-content-theme="false">
+     	<h1>Historia</h1>
+         <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image9','','imagenes/histo4.jpg',1)"><img src="imagenes/histo3.jpg" width="243" height="208" id="Image9"></a>
+         </div>
+        <div data-role="footer" data-theme="b" data-position="fixed">
+           <h4>Aplicacion Uno, SGS</h4>
+    </div>
+ </div>
+        </div>
+        
+ <div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="b">
+      <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+         <h1>Clasificacion de Telefonos</h1>
+       </div>
+       <div data-role="content" align="center">
+         <div>
+           <h2>Se clasifican de 3 maneras
+                GAMA BAJA , GAMA MEDIA , GAMA ALTA</h2>
+         </div>
+        </div>
+        <div data-role="collapsible" data-content-theme="false">
+     	<h1>GAMA BAJA</h1>
+        <p>
+        Moto G Turbo Edition
+        –Pantalla: 5 pulgadas HD (1,280x720p)
+        –Procesador: Snapdragon 615 de núcleo ocho núcleos dividido en dos módulos de 1.7Ghz y 1Ghz
+        –Almacenamiento y RAM: 16GB expandible con microSD a 32GB; 2GB de RAM
+        –Cámara: 13MP y frontal de 5MP
+        –Batería: 2470mAh
+        –Sistema operativo: Android 5.1 Lollipop actualizable a Android 6.0 Marshmallow</p>
+           <img src="imagenes/gama baja.jpg">
+        </div>
+         <div data-role="collapsible" data-content-theme="false">
+     	<h1>GAMA MEDIA</h1>
+        <p>ASUS ZenFone 2 Laser 
+          Un procesador Octa-core Cortex-A53 de 1.7Ghz y Cortex-A53 de 1.2Ghz
+          GPU Adreno 405
+          Chipset Qualcomm MSM8939v2 Snapdragon 616
+          3GB de RAM y 32GB de memoria interna o 2GB de RAM y 16GB de memoria 
+          Pantalla de 6 pulgadas AMOLED de 16M colores. Resolución Full HD 1080×1920. 367 pixeles de densidad. Protección Corning Gorilla Glass 4.
+          Cámara principal de 13MP, autoenfoque laser, LED Dual, HDR. Grabación de video en Full HD 1080p@30fps. Cámara secundaria de 5MP.
+          Sistema operativo: Android v5.0 (Lollipop), actualizable a v6.0 (Marshmallow) </p>
+          <img src="imagenes/gama media.jpg">
+        </div>
+         <div data-role="collapsible" data-content-theme="false">
+     	<h1>GAMA ALTA</h1>
+        <p>Samsung Galaxy S8
+        Qualcomm Snapdragon 835
+        4 GB / 64 GB
+         5.8'', 2960 x 1440 píxeles (568 PPP)
+         3000 mAh"
+         148.9 x 68.1 x 8.0 mm, 155 g
+         12 Mpx / 8 Mpx
+         LTE, micro-SD, NFC, lector de huellas, USB tipo C, a prueba de agua, escáner de iris, carga 
+        </p>
+         <img src="imagenes/gama alta.jpg">
+        </div>
+        <div data-role="footer" data-theme="b" data-position="fixed">
+           <h4>Aplicacion Uno, SGS</h4>
+          </div>
+         </div>
+        </div>  
+        
+ <div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="b">
+      <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+         <h1>Companias que ofrecen cervisios</h1>
+       </div>
+       <div data-role="content" align="center">
+         <div>
+           <h2>4 COMPANIAS</h2>
+         </div>
+        </div>
+        <div data-role="collapsible" data-content-theme="false">
+        <h1>TELCEL</h1>
+         <a href="http://www.telcel.com/"><img src="imagenes/telcel.jpg"></a>
+         </div>
+          <div data-role="collapsible" data-content-theme="false">
+          <h1>MOVISTAR</h1>
+          <a href="https://www.movistar.com/es/"><img src="imagenes/movistar.jpg"></a>
+          </div>
+          <div data-role="collapsible" data-content-theme="false">
+          <h1>UNEFON</h1>
+          <a href="https://www.unefon.com.mx/"><img src="imagenes/unefon.jpg"></a>
+          </div>
+          <div data-role="collapsible" data-content-theme="false">
+          <h1>AT&T</h1>
+          <a href="https://www.att.com.mx/index.html?gclid=CKGt3bqE_9ICFQyHaQodKQMJcg&gclsrc=aw.ds"><img src="imagenes/at&t.png"></a>
+          </div>   
+        <div data-role="footer" data-theme="b" data-position="fixed">
+           <h4>Aplicacion Dos, SGS</h4>
+          </div>
+         </div>
+        </div> 
+        
+ <div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="b">
+      <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+         <h1>Telefonos del futuro</h1>
+       </div>
+       <div data-role="content" align="center">
+         <div>
+           <h2>4 telfonos del futuro</h2>
+         </div>
+        </div>
+        <div data-role="collapsible" data-content-theme="false">
+          <h1>9-LG Z</h1>
+          <img src="imagenes/futuro1.jpg">
+          </div>
+           <div data-role="collapsible" data-content-theme="false">
+          <h1>ARA</h1>
+          <img src="imagenes/futuro2.jpg">
+          </div>
+          <div data-role="collapsible" data-content-theme="false">
+          <h1>FLEXI</h1>
+          <img src="imagenes/futuro3.jpg">
+          </div>
+           <div data-role="collapsible" data-content-theme="false">
+          <h1>BLACKBERRY</h1>
+          <img src="imagenes/futuro4.jpg">
+          </div>
+        
+        <div data-role="footer" data-theme="b" data-position="fixed">
+           <h4>Aplicacion Dos, SGS</h4>
+          </div>
+         </div>
+        </div> 
+        
+        
+        
+              
+                    
+</body>
+</html>
