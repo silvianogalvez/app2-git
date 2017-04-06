@@ -31,7 +31,9 @@
             <OrderRandom>false</OrderRandom>
             <PlayPause>true</PlayPause>
             <Preloader>false</Preloader>
+            <PublishFileName>E:/git/app2-git/wowslider.html</PublishFileName>
             <PublishIndex>wowslider.html</PublishIndex>
+            <PublishPath>E:/git/app2-git</PublishPath>
             <PublishPreview>true</PublishPreview>
             <PublishType>file</PublishType>
             <RelativePath>false</RelativePath>
@@ -45,7 +47,7 @@
             <SoundFileName></SoundFileName>
             <StopOnHover>false</StopOnHover>
             <SwipeSupport>2</SwipeSupport>
-            <TemplateColor>#47C9AF</TemplateColor>
+            <TemplateColor>#47c9af</TemplateColor>
             <TemplateFont>Indie Flower</TemplateFont>
             <TemplateName>dodgy</TemplateName>
             <ThumbAlign>bottom</ThumbAlign>
